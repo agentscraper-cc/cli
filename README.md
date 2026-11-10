@@ -8,8 +8,8 @@ It is the command line client for the [Live Web Data API](https://agentscraper.c
 ## Quick start
 
 ```bash
-npx agentscraper login                                   # paste your API key (not echoed)
-npx agentscraper fetch https://example.com -o text       # the page as Markdown
+npx @agentscraper-cc/cli login                                   # paste your API key (not echoed)
+npx @agentscraper-cc/cli fetch https://example.com -o text       # the page as Markdown
 ```
 
 Get a key at [agentscraper.cc](https://agentscraper.cc). Node.js 18 or later.
@@ -17,7 +17,7 @@ Get a key at [agentscraper.cc](https://agentscraper.cc). Node.js 18 or later.
 ## Install
 
 ```bash
-npm install -g agentscraper
+npm install -g @agentscraper-cc/cli
 agentscraper --help
 ```
 
