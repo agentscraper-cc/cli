@@ -1,0 +1,14 @@
+{
+  "name": "AgentScraper",
+  "tagline": "Scheduled web collection for AI workflows, built to be boring.",
+  "domain": "agentscraper.cc",
+  "bin": "agentscraper",
+  "npm": "agentscraper",
+  "org": "agentscraper-cc",
+  "repo": "cli",
+  "siteUrl": "https://agentscraper.cc",
+  "docsUrl": "https://agentscraper.cc/docs",
+  "apiName": "Live Web Data API",
+  "apiBaseUrl": "https://livewebdata.com/api",
+  "specUrl": "https://livewebdata.com/openapi.json"
+}
