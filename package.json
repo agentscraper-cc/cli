@@ -22,7 +22,7 @@
     "url": "git+https://github.com/agentscraper-cc/cli.git"
   },
   "license": "MIT",
-  "author": "Teneo Labs Inc.",
+  "author": "agentscraper.cc",
   "type": "module",
   "bin": {
     "agentscraper": "bin/cli.js"
