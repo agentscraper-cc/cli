@@ -1,0 +1,31 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "cc.agentscraper/agentscraper",
+  "title": "AgentScraper API",
+  "description": "Fetch public web pages live and get clean Markdown, text or HTML.",
+  "version": "0.1.0",
+  "websiteUrl": "https://agentscraper.cc/docs/mcp",
+  "icons": [
+    {
+      "src": "https://agentscraper.cc/site-assets/agentscraper-cc/icon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentscraper.cc/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Your AgentScraper API key as a bearer token: Bearer 1337_live_…",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

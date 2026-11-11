@@ -8,7 +8,8 @@
   "repo": "cli",
   "siteUrl": "https://agentscraper.cc",
   "docsUrl": "https://agentscraper.cc/docs",
-  "apiName": "Live Web Data API",
-  "apiBaseUrl": "https://livewebdata.com/api",
-  "specUrl": "https://livewebdata.com/openapi.json"
+  "apiName": "AgentScraper API",
+  "envPrefix": "AGENTSCRAPER",
+  "apiBaseUrl": "https://agentscraper.cc/api",
+  "specUrl": "https://agentscraper.cc/openapi.json"
 }
