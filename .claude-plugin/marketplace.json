@@ -1,0 +1,17 @@
+{
+  "name": "agentscraper",
+  "owner": {
+    "name": "AgentScraper",
+    "url": "https://agentscraper.cc"
+  },
+  "metadata": {
+    "description": "The AgentScraper plugin: AgentScraper API MCP server and skill."
+  },
+  "plugins": [
+    {
+      "name": "agentscraper",
+      "source": "./",
+      "description": "Fetch public web pages live as clean Markdown, text or HTML through the AgentScraper API: its remote MCP server and the agentscraper CLI."
+    }
+  ]
+}

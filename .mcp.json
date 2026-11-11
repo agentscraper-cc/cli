@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "agentscraper": {
+      "type": "http",
+      "url": "https://agentscraper.cc/mcp",
+      "headers": {
+        "Authorization": "Bearer ${AGENTSCRAPER_API_KEY}"
+      }
+    }
+  }
+}

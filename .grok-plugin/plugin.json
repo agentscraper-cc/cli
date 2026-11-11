@@ -1,0 +1,19 @@
+{
+  "name": "agentscraper",
+  "version": "0.1.0",
+  "description": "Fetch public web pages live as clean Markdown, text or HTML through the AgentScraper API: its remote MCP server and the agentscraper CLI.",
+  "author": {
+    "name": "AgentScraper",
+    "url": "https://agentscraper.cc"
+  },
+  "homepage": "https://agentscraper.cc",
+  "repository": "https://github.com/agentscraper-cc/cli",
+  "license": "MIT",
+  "keywords": [
+    "agentscraper",
+    "web-fetch",
+    "markdown",
+    "mcp",
+    "cli"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "agentscraper",
+  "version": "0.1.0",
+  "description": "Fetch public web pages live as clean Markdown, text or HTML through the AgentScraper API: its remote MCP server and the agentscraper CLI.",
+  "mcpServers": {
+    "agentscraper": {
+      "httpUrl": "https://agentscraper.cc/mcp",
+      "headers": {
+        "Authorization": "Bearer ${AGENTSCRAPER_API_KEY}"
+      }
+    }
+  },
+  "settings": [
+    {
+      "name": "API key",
+      "description": "Your AgentScraper API key, from https://agentscraper.cc",
+      "envVar": "AGENTSCRAPER_API_KEY",
+      "sensitive": true
+    }
+  ]
+}
