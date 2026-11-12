@@ -1,6 +1,5 @@
 {
   "name": "AgentScraper",
-  "tagline": "Scheduled web collection for AI workflows, built to be boring.",
   "domain": "agentscraper.cc",
   "bin": "agentscraper",
   "npm": "@agentscraper-cc/cli",

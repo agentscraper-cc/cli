@@ -1,7 +1,5 @@
 # AgentScraper CLI
 
-Scheduled web collection for AI workflows, built to be boring.
-
 `agentscraper` fetches live web pages as clean Markdown, text or HTML, straight from your terminal or your agent's shell.
 It is the command line client for the [AgentScraper API](https://agentscraper.cc).
 
