@@ -61,9 +61,10 @@ claude plugin marketplace add agentscraper-cc/cli && claude plugin install agent
 gemini extensions install https://github.com/agentscraper-cc/cli
 ```
 
-Network and credentials: the plugin calls `https://agentscraper.cc/mcp` only, and the CLI `https://agentscraper.cc/api` and
-`https://agentscraper.cc/openapi.json`. Both need one credential, your AgentScraper API key, read from `AGENTSCRAPER_API_KEY`. No hooks, no
-scripts run on install.
+Network and credentials: the plugin calls `https://agentscraper.cc/mcp` only. The CLI calls `https://agentscraper.cc/api` and
+`https://agentscraper.cc/openapi.json`, and `https://registry.npmjs.org` (`npx` and a once-a-day update check, off with
+`AGENTSCRAPER_NO_UPDATE_NOTIFIER=1`). Both need one credential, your AgentScraper API key,
+read from `AGENTSCRAPER_API_KEY` or saved by `agentscraper login`. No hooks, no scripts run on install.
 
 ## The commands follow the live API
 
